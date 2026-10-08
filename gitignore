@@ -1,0 +1,17 @@
+# environments and caches
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+
+# large or private files (publish weights via GitHub Releases instead)
+models/*.keras
+models/*.h5
+*.zip
+data/
+samples/
+
+# credentials
+kaggle.json
+.env
