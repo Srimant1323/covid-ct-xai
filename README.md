@@ -24,7 +24,7 @@ A transfer-learning pipeline that classifies **lung-extracted chest CT slices** 
 - **Task here:** binary **pCT vs nCT**. `NiCT` is a slice-quality class, not a disease class, and was excluded.
 - **Data audit:** the download contains two parallel folders (original and preprocessed), which initially double-counted the images; the audit caught this. Exact duplicates (59 groups) and one label-conflict group were removed → nCT 9,949 · pCT 4,001 used.
 - **Note:** the Data Card states all images are 512×512, but sizes of 512, 574, 575 and 1211 px were found; all images were resized to 224×224.
-- The dataset is **not** redistributed in this repository. Please obtain it from Kaggle and check its licence.
+- - **Licence:** CC BY 4.0 (Attribution 4.0 International), as stated on the Kaggle dataset page. The dataset is not redistributed in this repository (it is about 3.6 GB); please download it from Kaggle and credit the original authors.
 
 ## Method
 
@@ -161,8 +161,8 @@ This is an educational and research prototype. It is not clinically validated an
 
 ## License
 
-Code released under the MIT License (see `LICENSE`). The dataset has its own licence; see its Kaggle page.
+Code released under the MIT License (see `LICENSE`). The dataset is licensed separately under CC BY 4.0; see its Kaggle page.
 
 ## Author
 
-Srimant · M.Tech Bioinformatics · [LinkedIn](https://www.linkedin.com/in/<YOUR-LINKEDIN>) · [GitHub](https://github.com/<YOUR-GITHUB-USERNAME>)
+Srimant · M.Tech Bioinformatics · [LinkedIN](https://www.linkedin.com/in/srimant-bhardwaj-13s23a/) · [GitHub](https://github.com/Srimant1323)
